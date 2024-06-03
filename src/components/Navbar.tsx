@@ -23,7 +23,7 @@ const Navbar = () => {
                         href="/"
                         className="flex z-40 font-semibold font-sans"
                     >
-                        <span>ChatPDF.</span>
+                        <span>FFCS Helper VITV.</span>
                     </Link>
 
                     <MobileNav isAuth={!!user} />
@@ -33,13 +33,13 @@ const Navbar = () => {
                         {!user ? (
                             <>
                                 <Link
-                                    href="/pricing"
+                                    href="/dashboard"
                                     className={buttonVariants({
                                         variant: 'ghost',
                                         size: 'sm',
                                     })}
                                 >
-                                    Pricing
+                                    Dashboard
                                 </Link>
                                 <LoginLink
                                     className={buttonVariants({
@@ -47,7 +47,7 @@ const Navbar = () => {
                                         size: 'sm',
                                     })}
                                 >
-                                    Sign in
+                                    Contribute
                                 </LoginLink>
                                 <RegisterLink
                                     className={buttonVariants({

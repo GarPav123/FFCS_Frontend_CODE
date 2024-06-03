@@ -1,7 +1,8 @@
 import Navbar from '@/components/Navbar'
 import Providers from '@/components/Providers'
-import { cn, constructMetadata } from '@/lib/utils'
+import { constructMetadata } from '@/lib/utils'
 import { Inter } from 'next/font/google'
+import { cn } from "@/app/cn"
 import './globals.css'
 
 import 'react-loading-skeleton/dist/skeleton.css'

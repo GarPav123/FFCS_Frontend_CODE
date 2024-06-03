@@ -36,18 +36,19 @@
         "ai": "^2.2.37",
         "autoprefixer": "10.4.16",
         "class-variance-authority": "^0.7.0",
-        "clsx": "^2.0.0",
+        "clsx": "^2.1.1",
         "date-fns": "^2.30.0",
         "eslint": "8.49.0",
         "eslint-config-next": "13.5.2",
+        "framer-motion": "^11.2.10",
         "langchain": "^0.0.166",
         "lucide-react": "^0.279.0",
+        "mini-svg-data-uri": "^1.4.4",
         "next": "13.5.2",
         "next-themes": "^0.2.1",
         "openai": "^4.10.0",
         "pdf-parse": "^1.1.1",
         "postcss": "8.4.30",
-        "prisma": "^5.3.1",
         "react": "18.2.0",
         "react-dom": "18.2.0",
         "react-dropzone": "^14.2.3",
@@ -65,5 +66,8 @@
         "typescript": "5.2.2",
         "uploadthing": "^5.7.4",
         "zod": "^3.21.4"
+    },
+    "devDependencies": {
+        "prisma": "^5.14.0"
     }
 }
